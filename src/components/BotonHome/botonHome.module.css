@@ -1,0 +1,16 @@
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    width: 180.12px;
+    height: 54px;
+    color: #2271D1;
+    background-color: #000;
+    border: 2px solid #2271D1;
+    border-radius: 10px;
+}

@@ -1,0 +1,15 @@
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    width: 180.12px;
+    height: 54px;
+    color: var(--color-letras);
+    background-color: var(--color-fondo);
+    border: 2px solid #f5f5f5;
+    border-radius: 10px;
+}

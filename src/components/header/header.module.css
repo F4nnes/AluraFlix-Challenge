@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1440px;
+    height: 100px;
+    box-sizing: border-box;
+    border-bottom: 5px solid var(--color-lineas);
+    background-color: var(--color-fondo-header-footer);
+}
+
+
+.container {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 787px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navBotones {
+    display: flex;
+    gap: 30px;
+}

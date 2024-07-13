@@ -3,7 +3,7 @@
   --fontS: "Source Sans Pro", sans-serif;
 
   --color-fondo-header-footer: rgb(25,25,25);
-  --color-fondo-form: rgb(38,38,38);
+  --color-fondo: rgb(38,38,38);
   --color-lineas: rgb(34,113,209);
   --color-letras:rgb(255, 255, 255);
   --color-letras-placeholder:rgb(165,165,165);
@@ -17,6 +17,7 @@
 
 body {
   margin: 0;
+  background-color: var(--color-fondo);
   font-family: var(--fontS);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

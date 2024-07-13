@@ -1,8 +1,17 @@
+import Contenedor from "components/Contenedor"
+import Footer from "components/footer"
+import Header from "components/header"
 
 
 function Inicio(){
     return(
-        <h1>Hola Mundo desde Inicio</h1>
+        <>
+        <Header/>
+        <Contenedor/>
+        <Footer/>
+        </>
+        
+          
     )
 }
 
