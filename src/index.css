@@ -1,13 +1,25 @@
+:root{
+  --fontR: "Roboto", sans-serif;
+  --fontS: "Source Sans Pro", sans-serif;
+
+  --color-fondo-header-footer: rgb(25,25,25);
+  --color-fondo-form: rgb(38,38,38);
+  --color-lineas: rgb(34,113,209);
+  --color-letras:rgb(255, 255, 255);
+  --color-letras-placeholder:rgb(165,165,165);
+  --color-error: rgb(229,57,53);
+
+  --color-card-frontEnd: rgb(107,209,255);
+  --color-card-backEnd: rgb(0,200, 111);
+  --color-card-fullStack: rgb(255, 186, 5);
+
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--fontS);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
